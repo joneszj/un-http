@@ -1,0 +1,11 @@
+1 load all stylesheets in solution - stylesheets
+2 classify all rules - cssRules
+3 iterate through all html documents collecting html that matches any rule in cssRules
+4 generate a new css document for each html document that contains only the rules referenced in that html document
+
+5y find all image type references - images
+5y base64 all image references
+
+5x do the same with javascript
+
+6x minify all css and js documents

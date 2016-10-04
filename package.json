@@ -1,0 +1,19 @@
+{
+  "name": "un-http",
+  "version": "1.0.0",
+  "description": "streamlines static sites to minimize http requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joneszj/un-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joneszj/un-http/issues"
+  },
+  "homepage": "https://github.com/joneszj/un-http#readme"
+}
