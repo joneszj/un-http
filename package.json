@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/joneszj/un-http/issues"
   },
-  "homepage": "https://github.com/joneszj/un-http#readme"
+  "homepage": "https://github.com/joneszj/un-http#readme",
+  "dependencies": {}
 }

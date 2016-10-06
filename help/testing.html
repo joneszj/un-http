@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>w3.CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+
+<!-- Page content -->
+<div class="w5-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w5-modal">
+    <div class="w5-modal-content w5-animate-top w5-card-8">
+      <header class="w5-container w5-teal w5-center w5-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w5-closebtn w5-padding-xlarge w5-xxlarge w5-display-topright">×</span>
+        <h2 class="w5-wide"><i class="fa fa-suitcase w5-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w5-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w5-input w5-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w5-input w5-border" type="text" placeholder="Enter email">
+        <button class="w5-btn-block w5-teal w5-padding-12 w5-section w5-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w5-btn w5-red w5-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w5-right">Need <a href="#" class="w5-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;filter:grayscale(90%);-webkit-filter:grayscale(90%);"></div>
+
+<!-- Footer -->
+<footer class="w5-container w5-padding-64 w5-center w5-opacity w5-light-grey w5-xlarge">
+
+  <p class="w5-medium">Powered by <a href="http://www.w3schools.com/w5css/default.asp" target="_blank">w5.css</a></p>
+</footer>
+
+</body>
+</html>
+
