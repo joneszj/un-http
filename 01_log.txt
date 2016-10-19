@@ -1,154 +1,80 @@
-loading dom for: d:\GitHubRepos\un-http\about\testing.html
-loading dom for: d:\GitHubRepos\un-http\contact\testing.1.html
-loading dom for: d:\GitHubRepos\un-http\help\testing.html
-loading dom for: d:\GitHubRepos\un-http\home\testing.2.html
-**** d:\GitHubRepos\un-http\home\testing.2.html ****
-classes: 89
-ids: 6
-tags: 24
-extracting rules...
-*******found location instances (2) of  body  in css: 168,2506
-*******found location instances (1) of  footer  in css: 238
-*******found location instances (12) of  li  in css: 3712,6508,6582,6869,6900,6969,8084,8130,10918,10957,11049,15430
-*******found location instances (39) of  a  in css: 507,583,596,3023,3030,3037,3044,3051,3058,3177,6903,6972,7283,7298,7314,7339,7365,7381,7524,7665,7740,7930,8049,8065,8087,8157,8182,9717,9762,9812,9828,9991,10960,11052,11952,12014,12233,12296,15397
-*******found location instances (2) of  img  in css: 989,3148
-*******found location instances (4) of  h3  in css: 2624,2762,2930,3034
-*******found location instances (4) of  h2  in css: 2619,2738,2925,3027
-*******found location instances (7) of  button  in css: 1200,1297,1335,1377,1459,1468,1642
-*******found location instances (1) of  header  in css: 247
-*******found location instances (2) of  input  in css: 1209,1306
-*******found location instances (2) of .w3-top  in css: 16355,16422
-*******found location instances (1) of .w3-hide  in css: 14902
-*******found location instances (1) of .w3-hide-large  in css: 16062
-*******found location instances (1) of .w3-hide-medium  in css: 15986
-*******found location instances (1) of .w3-content  in css: 14823
-*******found location instances (2) of .w3-container  in css: 12946,21249
-*******found location instances (1) of .w3-padding-64  in css: 19978
-*******found location instances (1) of .w3-center  in css: 17275
-*******found location instances (1) of .w3-opacity  in css: 24695
-*******found location instances (1) of .w3-light-grey  in css: 27645
-*******found location instances (1) of .w3-xlarge  in css: 16872
-*******found location instances (17) of .w3-navbar  in css: 6780,6859,6890,6959,7024,7056,7108,7148,7194,7273,7421,8039,15420,15493,15638,15691,15821
-*******found location instances (1) of .w3-black  in css: 27450
-*******found location instances (1) of .w3-card-2  in css: 21871
-*******found location instances (1) of .w3-left-align  in css: 17132
-*******found location instances (4) of .w3-opennav  in css: 4635,7765,7812,8245
-*******found location instances (3) of .w3-right  in css: 7443,15506,16670
-*******found location instances (1) of .w3-hide-small  in css: 15887
-*******found location instances (13) of .w3-dropdown-hover  in css: 7035,7119,7159,7722,8216,9863,9904,10055,10136,11617,11700,15596,15702
-*******found location instances (1) of .w3-padding-large  in css: 19213
-*******found location instances (1) of .w3-hover-none  in css: 25112
-*******found location instances (2) of .w3-hover-text-grey  in css: 9338,30101
-*******found location instances (11) of .w3-dropdown-content  in css: 7319,8162,10155,10209,11727,11780,11932,11994,15615,15668,15721
-*******found location instances (1) of .w3-white  in css: 27353
-*******found location instances (1) of .w3-card-4  in css: 21996
-*******found location instances (2) of .w3-hover-red  in css: 8620,26969
-*******found location instances (1) of .w3-display-container  in css: 6638
-*******found location instances (3) of .w3-modal  in css: 10301,15145,15245
-*******found location instances (1) of .w3-display-bottommiddle  in css: 17853
-*******found location instances (1) of .w3-text-white  in css: 29939
-*******found location instances (1) of .w3-padding-32  in css: 19818
-*******found location instances (2) of .w3-wide  in css: 2656,2987
-*******found location instances (1) of .w3-justify  in css: 17228
-*******found location instances (1) of .w3-row  in css: 12990
-*******found location instances (5) of .w3-third  in css: 13234,13711,13961,14477,20672
-*******found location instances (1) of .w3-round  in css: 18089
-*******found location instances (1) of .w3-margin-bottom  in css: 18809
-*******found location instances (3) of .w3-ul  in css: 6443,6502,6576
-*******found location instances (1) of .w3-border  in css: 18396
-*******found location instances (1) of .w3-text-grey  in css: 30085
-*******found location instances (2) of .w3-row-padding  in css: 13008,20611
-*******found location instances (1) of .w3-padding  in css: 19157
-*******found location instances (1) of .w3-tag  in css: 6265
-*******found location instances (1) of .w3-red  in css: 26959
-*******found location instances (1) of .w3-margin-left  in css: 18862
-*******found location instances (2) of .w3-badge  in css: 6253,6407
-*******found location instances (1) of .w3-margin-right  in css: 18911
-*******found location instances (2) of .w3-hover-opacity  in css: 7995,24709
-*******found location instances (10) of .w3-btn  in css: 4110,4376,4566,5196,5405,5550,5779,5847,5945,7890
-*******found location instances (4) of .w3-modal-content  in css: 10514,15084,15209,15309
-*******found location instances (1) of .w3-animate-top  in css: 23059
-*******found location instances (1) of .w3-card-8  in css: 22133
-*******found location instances (1) of .w3-teal  in css: 27153
-*******found location instances (4) of .w3-closebtn  in css: 8274,10632,10738,10761
-*******found location instances (1) of .w3-padding-xlarge  in css: 19265
-*******found location instances (1) of .w3-xxlarge  in css: 16914
-*******found location instances (1) of .w3-display-topright  in css: 17381
-*******found location instances (2) of .w3-input  in css: 11162,11297
-*******found location instances (4) of .w3-btn-block  in css: 4120,4394,5804,7960
-*******found location instances (1) of .w3-padding-12  in css: 19578
-*******found location instances (1) of .w3-section  in css: 18962
-*******found location instances (1) of .w3-text-blue  in css: 28449
-*******found location instances (2) of .w3-col  in css: 13213,20796
-*******found location instances (1) of .m6  in css: 14033
-*******found location instances (1) of .w3-large  in css: 16831
-*******found location instances (5) of .w3-half  in css: 13223,13700,14039,14555,20645
-*******found location instances (2) of .w3-hover-text-indigo  in css: 9006,29025
-*******found location instances (2) of .w3-hover-text-red  in css: 9203,29656
-*******found location instances (2) of .w3-hover-text-light-blue  in css: 8854,28545
-*******found location instances (1) of .w3-medium  in css: 16789
-*******found location instances (1) of .fa  in css: 526
-*******found location instances (1) of .fa-bars  in css: 11848
-*******found location instances (1) of .fa-caret-down  in css: 12430
-*******found location instances (1) of .fa-search  in css: 3610
-*******found location instances (1) of .fa-suitcase  in css: 13729
-*******found location instances (1) of .fa-shopping-cart  in css: 8827
-*******found location instances (1) of .fa-user  in css: 3821
-*******found location instances (1) of .fa-check  in css: 4026
-*******found location instances (1) of .fa-remove  in css: 4067
-*******found location instances (1) of .fa-map-marker  in css: 6323
-*******found location instances (1) of .fa-phone  in css: 10011
-*******found location instances (1) of .fa-envelope  in css: 12857
-*******found location instances (1) of .fa-facebook-official  in css: 28182
-*******found location instances (1) of .fa-pinterest-p  in css: 28235
-*******found location instances (1) of .fa-twitter  in css: 10190
-*******found location instances (1) of .fa-flickr  in css: 19443
-*******found location instances (1) of .fa-linkedin  in css: 12901
-query remaining css rules in stylesheets and remove non matching rules
-removing rule:  .w3-input~.w3-validate { color:#f44336 } 
-removing rule:  .w3-btn-bar .w3-btn { background-color:#ccc } 
-removing rule:  .w3-btn-bar .w3-btn { box-shadow:none;background-color:inherit;color:inherit;float:left } 
-removing rule:  .w3-btn-group .w3-btn { float:left } 
-removing rule:  .w3-sidenav .w3-dropdown-hover .w3-dropdown-content , .w3-sidenav .w3-dropdown-click .w3-dropdown-content { min-width:100% } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click { width:100% } 
-removing rule:  .w3-topnav a { display:block .w3-navbar li { float:none;width:100%!important } .w3-navbar li.w3-right { float:none!important } } 
-removing rule:  .w3-accordion-content a { background-color:#ccc } 
-removing rule:  .w3-accordion-content a { padding:6px 16px;display:block } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click , .w3-dropnav a { background-color:#ccc;color:#000 } 
-removing rule:  .w3-sidenav a , .w3-dropnav a { display:block } 
-removing rule:  .w3-sidenav a { background-color:#ccc } 
-removing rule:  .w3-sidenav a { padding:4px 2px 4px 16px } 
-removing rule:  .w3-topnav .w3-dropdown-hover a { border-bottom:0 } 
-removing rule:  .w3-topnav a { border-bottom:3px solid #fff } 
-removing rule:  .w3-topnav a { padding:0 8px;border-bottom:3px solid transparent;-webkit-transition:border-bottom .3s;transition:border-bottom .3s } 
-removing rule:  h1 a , h2 a , h3 a , h4 a , h5 a , h6 a { font-weight:inherit } 
-removing rule:  .w3-pagination li a { background-color:#ccc } 
-removing rule:  .w3-pagination li a { text-decoration:none;color:#000;float:left;padding:8px 16px } 
-removing rule:  .w3-pagination li { display:inline } 
-removing rule:  .w3-hoverable tbody tr , .w3-ul.w3-hoverable li { background-color:#ccc } 
-base64ing all images...
-generating new css document...
-updating d:\GitHubRepos\un-http\home with new css style...
-complete: d:\GitHubRepos\un-http\home\testing.2.html!!!
-**** d:\GitHubRepos\un-http\help\testing.html ****
-classes: 36
+loading dom for: /Users/zachary-jones/Documents/un-http/help/testing.html
+**** /Users/zachary-jones/Documents/un-http/help/testing.html ****
+classes: 38
 ids: 2
-tags: 18
+tags: 19
 extracting rules...
-*******found location instances (2) of  body  in css: 168,2506
-*******found location instances (1) of  footer  in css: 238
-*******found location instances (1) of  header  in css: 247
-*******found location instances (4) of  h2  in css: 2619,2738,2925,3027
-*******found location instances (2) of  input  in css: 1209,1306
-*******found location instances (7) of  button  in css: 1200,1297,1335,1377,1459,1468,1642
-*******found location instances (39) of  a  in css: 507,583,596,3023,3030,3037,3044,3051,3058,3177,6903,6972,7283,7298,7314,7339,7365,7381,7524,7665,7740,7930,8049,8065,8087,8157,8182,9717,9762,9812,9828,9991,10960,11052,11952,12014,12233,12296,15397
-*******found location instances (1) of .fa  in css: 526
-*******found location instances (1) of .fa-suitcase  in css: 13729
-*******found location instances (1) of .fa-shopping-cart  in css: 8827
-*******found location instances (1) of .fa-user  in css: 3821
-*******found location instances (1) of .fa-check  in css: 4026
-*******found location instances (1) of .fa-remove  in css: 4067
+*******found location instances (2) of  body  in css: 303,2658
+*******found location instances (1) of  footer  in css: 373
+*******found location instances (2) of  img  in css: 1124,3300
+*******found location instances (1) of  header  in css: 382
+*******found location instances (4) of  h2  in css: 2771,2890,3077,3179
+*******found location instances (2) of  input  in css: 1344,1441
+*******found location instances (7) of  button  in css: 1335,1432,1470,1512,1594,1603,1777
+*******found location instances (39) of  a  in css: 642,718,731,3175,3182,3189,3196,3203,3210,3329,7055,7124,7435,7450,7466,7491,7517,7533,7676,7817,7892,8082,8201,8217,8239,8309,8334,9869,9914,9964,9980,10143,11112,11204,12104,12166,12385,12448,15549
+*******found location instances (8) of  body  in css: 421,3245,102340,102709,105187,105288,105370,109262
+*******found location instances (2) of  div  in css: 140372,144206
+*******found location instances (1) of  footer  in css: 491
+*******found location instances (11) of  img  in css: 1093,2508,2547,3983,110019,112817,112899,123194,123282,145892,179317
+*******found location instances (1) of  header  in css: 500
+*******found location instances (4) of  span  in css: 120441,122528,122616,144276
+*******found location instances (9) of  h2  in css: 2582,2621,3339,4958,102125,103367,103469,103573,151305
+*******found location instances (8) of  p  in css: 2592,3381,110071,114124,114193,146168,146255,146505
+*******found location instances (12) of  input  in css: 1273,1642,4086,4487,25225,25259,51787,52663,53523,55350,111204,130991
+*******found location instances (8) of  button  in css: 1264,1356,1386,1428,1612,4077,4394,4478
+*******found location instances (22) of  label  in css: 4094,4339,25108,25123,25219,25253,25891,25940,26494,26531,26558,26592,27338,27375,27402,27436,28245,28281,28307,28340,29721,29749
+*******found location instances (26) of  a  in css: 756,793,806,2293,2297,3799,3803,3815,3852,4066,119306,121255,121274,121302,121377,125699,125810,125840,125896,125907,125937,125991,126727,126739,133794,156978
+*******found location instances (1) of .four-o-four  in css: 175466
+*******found location instances (1) of .fl-tech-logo  in css: 174822
+*******found location instances (2) of  body  in css: 372,496
+*******found location instances (1) of  img  in css: 836
+*******found location instances (1) of  p  in css: 528
+*******found location instances (1) of  a  in css: 670
+*******found location instances (1) of .fa  in css: 694
+*******found location instances (1) of .fa-suitcase  in css: 13897
+*******found location instances (1) of .fa-shopping-cart  in css: 8995
+*******found location instances (1) of .fa-user  in css: 3989
+*******found location instances (1) of .fa-check  in css: 4194
+*******found location instances (1) of .fa-remove  in css: 4235
 query remaining css rules in stylesheets and remove non matching rules
+removing rule:  .projectLogo img { margin:-1px 0 -4px; vertical-align:middle; } 
+removing rule:  .post-content a { color:#910028;text-decoration:underline } 
+removing rule:  .admission-list a , .link--secondary { color:#575757;text-decoration:underline } 
+removing rule:  .footer-parent a { color:#979797 } 
+removing rule:  .footer-parent a , .footer-parent a , .footer-parent a { color:#fff;cursor:pointer;cursor:hand } 
+removing rule:  a .card { border-color:#575757;text-decoration:none!important;cursor:pointer } 
+removing rule:  .form-inline .checkbox label , .form-inline .radio label { padding-left:0 } 
+removing rule:  .has-danger .checkbox , .has-danger .checkbox-inline , .has-danger .form-control-label , .has-danger .radio , .has-danger .radio-inline , .has-danger .text-help , .has-danger.checkbox label , .has-danger.checkbox-inline label , .has-danger.radio label , .has-danger.radio-inline label { color:#d9534f } 
+removing rule:  .has-warning .checkbox , .has-warning .checkbox-inline , .has-warning .form-control-label , .has-warning .radio , .has-warning .radio-inline , .has-warning .text-help , .has-warning.checkbox label , .has-warning.checkbox-inline label , .has-warning.radio label , .has-warning.radio-inline label { color:#f0ad4e } 
+removing rule:  .has-success .checkbox , .has-success .checkbox-inline , .has-success .form-control-label , .has-success .radio , .has-success .radio-inline , .has-success .text-help , .has-success.checkbox label , .has-success.checkbox-inline label , .has-success.radio label , .has-success.radio-inline label { color:#5cb85c } 
+removing rule:  .checkbox-inline.disabled , .checkbox.disabled label , .radio-inline.disabled , .radio.disabled label , input[type=checkbox].disabled , input[type=checkbox] , input[type=radio].disabled , input[type=radio] { cursor-allowed } 
+removing rule:  .checkbox label , .radio label { padding-left:1.25rem;margin-bottom:0;font-weight:400;cursor:pointer } 
+removing rule:  .cta-form-slider input { margin-bottom:1em } 
+removing rule:  .file input { min-width:14rem;margin:0;filter:alpha;opacity:0 } 
+removing rule:  .c-radio input~.c-indicator { background-image:url } 
+removing rule:  .c-checkbox input~.c-indicator { background-color:#0074d9;background-image:url } 
+removing rule:  .c-checkbox input~.c-indicator { background-image:url } 
+removing rule:  .checkbox label input , .radio label input { position:static } 
+removing rule:  .tech-support-right p { margin:12% } 
+removing rule:  .enrollment-rep-content p { margin:auto } 
+removing rule:  .enrollment-rep-content p { margin-top:5%;width:95% } 
+removing rule:  .marketo-form p { font-size:1rem } 
+removing rule:  .marketo-form p { font-size:1.57rem } 
+removing rule:  .form-thank-you p { font-size:1.5rem;padding:0 2rem } 
+removing rule:  .vertical .main h2 { margin-top:30px;margin-bottom:50px } 
+removing rule:  .rectangle-content span { display:table-cell;text-align:initial;vertical-align:middle } 
+removing rule:  .footer-parent .phone-block span { padding-left:0 } 
+removing rule:  .footer-parent .phone-block span { padding-left:.5rem } 
+removing rule:  .footer-parent .footer-mobile .phone-block span { padding-left:.5rem } 
+removing rule:  .post-content img { max-width:100% } 
+removing rule:  .enrollment-rep-image img { width:100% } 
+removing rule:  .footer-social-section .brand-light img { width:167px } 
+removing rule:  .footer-social-section .brand-light img { width:200px } 
+removing rule:  .form-lead-in img { width:85px;padding-top:0 } 
+removing rule:  .form-lead-in img { width:100%;padding-top:3em } 
+removing rule:  .form-thank-you img { margin:2rem;width:120px } 
+removing rule:  .rectangle-content div { display:table;width:100%;height:100% } 
+removing rule:  .swatches div { padding:20px;height:100px } 
 removing rule:  .w3-topnav a { display:block .w3-navbar li { float:none;width:100%!important } .w3-navbar li.w3-right { float:none!important } } 
 removing rule:  .w3-accordion-content a { background-color:#ccc } 
 removing rule:  .w3-accordion-content a { padding:6px 16px;display:block } 
@@ -168,264 +94,6 @@ removing rule:  .w3-navbar a , .w3-topnav a , .w3-sidenav a , .w3-dropdown-conte
 removing rule:  .w3-navbar li a { color:#000;background-color:#ccc } 
 removing rule:  .w3-navbar li a , .w3-navitem { display:block;padding:8px 16px } 
 removing rule:  h1 a , h2 a , h3 a , h4 a , h5 a , h6 a { font-weight:inherit } 
-base64ing all images...
 generating new css document...
-updating d:\GitHubRepos\un-http\help with new css style...
-complete: d:\GitHubRepos\un-http\help\testing.html!!!
-**** d:\GitHubRepos\un-http\contact\testing.1.html ****
-classes: 89
-ids: 6
-tags: 24
-extracting rules...
-*******found location instances (2) of  body  in css: 168,2506
-*******found location instances (1) of  footer  in css: 238
-*******found location instances (12) of  li  in css: 3712,6508,6582,6869,6900,6969,8084,8130,10918,10957,11049,15430
-*******found location instances (39) of  a  in css: 507,583,596,3023,3030,3037,3044,3051,3058,3177,6903,6972,7283,7298,7314,7339,7365,7381,7524,7665,7740,7930,8049,8065,8087,8157,8182,9717,9762,9812,9828,9991,10960,11052,11952,12014,12233,12296,15397
-*******found location instances (2) of  img  in css: 989,3148
-*******found location instances (4) of  h3  in css: 2624,2762,2930,3034
-*******found location instances (4) of  h2  in css: 2619,2738,2925,3027
-*******found location instances (7) of  button  in css: 1200,1297,1335,1377,1459,1468,1642
-*******found location instances (1) of  header  in css: 247
-*******found location instances (2) of  input  in css: 1209,1306
-*******found location instances (2) of .w3-top  in css: 16355,16422
-*******found location instances (1) of .w3-hide  in css: 14902
-*******found location instances (1) of .w3-hide-large  in css: 16062
-*******found location instances (1) of .w3-hide-medium  in css: 15986
-*******found location instances (1) of .w3-content  in css: 14823
-*******found location instances (2) of .w3-container  in css: 12946,21249
-*******found location instances (1) of .w3-padding-64  in css: 19978
-*******found location instances (1) of .w3-center  in css: 17275
-*******found location instances (1) of .w3-opacity  in css: 24695
-*******found location instances (1) of .w3-light-grey  in css: 27645
-*******found location instances (1) of .w3-xlarge  in css: 16872
-*******found location instances (17) of .w3-navbar  in css: 6780,6859,6890,6959,7024,7056,7108,7148,7194,7273,7421,8039,15420,15493,15638,15691,15821
-*******found location instances (1) of .w3-black  in css: 27450
-*******found location instances (1) of .w3-card-2  in css: 21871
-*******found location instances (1) of .w3-left-align  in css: 17132
-*******found location instances (4) of .w3-opennav  in css: 4635,7765,7812,8245
-*******found location instances (3) of .w3-right  in css: 7443,15506,16670
-*******found location instances (1) of .w3-hide-small  in css: 15887
-*******found location instances (13) of .w3-dropdown-hover  in css: 7035,7119,7159,7722,8216,9863,9904,10055,10136,11617,11700,15596,15702
-*******found location instances (1) of .w3-padding-large  in css: 19213
-*******found location instances (1) of .w3-hover-none  in css: 25112
-*******found location instances (2) of .w3-hover-text-grey  in css: 9338,30101
-*******found location instances (11) of .w3-dropdown-content  in css: 7319,8162,10155,10209,11727,11780,11932,11994,15615,15668,15721
-*******found location instances (1) of .w3-white  in css: 27353
-*******found location instances (1) of .w3-card-4  in css: 21996
-*******found location instances (2) of .w3-hover-red  in css: 8620,26969
-*******found location instances (1) of .w3-display-container  in css: 6638
-*******found location instances (3) of .w3-modal  in css: 10301,15145,15245
-*******found location instances (1) of .w3-display-bottommiddle  in css: 17853
-*******found location instances (1) of .w3-text-white  in css: 29939
-*******found location instances (1) of .w3-padding-32  in css: 19818
-*******found location instances (2) of .w3-wide  in css: 2656,2987
-*******found location instances (1) of .w3-justify  in css: 17228
-*******found location instances (1) of .w3-row  in css: 12990
-*******found location instances (5) of .w3-third  in css: 13234,13711,13961,14477,20672
-*******found location instances (1) of .w3-round  in css: 18089
-*******found location instances (1) of .w3-margin-bottom  in css: 18809
-*******found location instances (3) of .w3-ul  in css: 6443,6502,6576
-*******found location instances (1) of .w3-border  in css: 18396
-*******found location instances (1) of .w3-text-grey  in css: 30085
-*******found location instances (2) of .w3-row-padding  in css: 13008,20611
-*******found location instances (1) of .w3-padding  in css: 19157
-*******found location instances (1) of .w3-tag  in css: 6265
-*******found location instances (1) of .w3-red  in css: 26959
-*******found location instances (1) of .w3-margin-left  in css: 18862
-*******found location instances (2) of .w3-badge  in css: 6253,6407
-*******found location instances (1) of .w3-margin-right  in css: 18911
-*******found location instances (2) of .w3-hover-opacity  in css: 7995,24709
-*******found location instances (10) of .w3-btn  in css: 4110,4376,4566,5196,5405,5550,5779,5847,5945,7890
-*******found location instances (4) of .w3-modal-content  in css: 10514,15084,15209,15309
-*******found location instances (1) of .w3-animate-top  in css: 23059
-*******found location instances (1) of .w3-card-8  in css: 22133
-*******found location instances (1) of .w3-teal  in css: 27153
-*******found location instances (4) of .w3-closebtn  in css: 8274,10632,10738,10761
-*******found location instances (1) of .w3-padding-xlarge  in css: 19265
-*******found location instances (1) of .w3-xxlarge  in css: 16914
-*******found location instances (1) of .w3-display-topright  in css: 17381
-*******found location instances (2) of .w3-input  in css: 11162,11297
-*******found location instances (4) of .w3-btn-block  in css: 4120,4394,5804,7960
-*******found location instances (1) of .w3-padding-12  in css: 19578
-*******found location instances (1) of .w3-section  in css: 18962
-*******found location instances (1) of .w3-text-blue  in css: 28449
-*******found location instances (2) of .w3-col  in css: 13213,20796
-*******found location instances (1) of .m6  in css: 14033
-*******found location instances (1) of .w3-large  in css: 16831
-*******found location instances (5) of .w3-half  in css: 13223,13700,14039,14555,20645
-*******found location instances (2) of .w3-hover-text-indigo  in css: 9006,29025
-*******found location instances (2) of .w3-hover-text-red  in css: 9203,29656
-*******found location instances (2) of .w3-hover-text-light-blue  in css: 8854,28545
-*******found location instances (1) of .w3-medium  in css: 16789
-*******found location instances (1) of .fa  in css: 526
-*******found location instances (1) of .fa-bars  in css: 11848
-*******found location instances (1) of .fa-caret-down  in css: 12430
-*******found location instances (1) of .fa-search  in css: 3610
-*******found location instances (1) of .fa-suitcase  in css: 13729
-*******found location instances (1) of .fa-shopping-cart  in css: 8827
-*******found location instances (1) of .fa-user  in css: 3821
-*******found location instances (1) of .fa-check  in css: 4026
-*******found location instances (1) of .fa-remove  in css: 4067
-*******found location instances (1) of .fa-map-marker  in css: 6323
-*******found location instances (1) of .fa-phone  in css: 10011
-*******found location instances (1) of .fa-envelope  in css: 12857
-*******found location instances (1) of .fa-facebook-official  in css: 28182
-*******found location instances (1) of .fa-pinterest-p  in css: 28235
-*******found location instances (1) of .fa-twitter  in css: 10190
-*******found location instances (1) of .fa-flickr  in css: 19443
-*******found location instances (1) of .fa-linkedin  in css: 12901
-query remaining css rules in stylesheets and remove non matching rules
-removing rule:  .w3-input~.w3-validate { color:#f44336 } 
-removing rule:  .w3-btn-bar .w3-btn { background-color:#ccc } 
-removing rule:  .w3-btn-bar .w3-btn { box-shadow:none;background-color:inherit;color:inherit;float:left } 
-removing rule:  .w3-btn-group .w3-btn { float:left } 
-removing rule:  .w3-sidenav .w3-dropdown-hover .w3-dropdown-content , .w3-sidenav .w3-dropdown-click .w3-dropdown-content { min-width:100% } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click { width:100% } 
-removing rule:  .w3-topnav a { display:block .w3-navbar li { float:none;width:100%!important } .w3-navbar li.w3-right { float:none!important } } 
-removing rule:  .w3-accordion-content a { background-color:#ccc } 
-removing rule:  .w3-accordion-content a { padding:6px 16px;display:block } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click , .w3-dropnav a { background-color:#ccc;color:#000 } 
-removing rule:  .w3-sidenav a , .w3-dropnav a { display:block } 
-removing rule:  .w3-sidenav a { background-color:#ccc } 
-removing rule:  .w3-sidenav a { padding:4px 2px 4px 16px } 
-removing rule:  .w3-topnav .w3-dropdown-hover a { border-bottom:0 } 
-removing rule:  .w3-topnav a { border-bottom:3px solid #fff } 
-removing rule:  .w3-topnav a { padding:0 8px;border-bottom:3px solid transparent;-webkit-transition:border-bottom .3s;transition:border-bottom .3s } 
-removing rule:  h1 a , h2 a , h3 a , h4 a , h5 a , h6 a { font-weight:inherit } 
-removing rule:  .w3-pagination li a { background-color:#ccc } 
-removing rule:  .w3-pagination li a { text-decoration:none;color:#000;float:left;padding:8px 16px } 
-removing rule:  .w3-pagination li { display:inline } 
-removing rule:  .w3-hoverable tbody tr , .w3-ul.w3-hoverable li { background-color:#ccc } 
-base64ing all images...
-generating new css document...
-updating d:\GitHubRepos\un-http\contact with new css style...
-complete: d:\GitHubRepos\un-http\contact\testing.1.html!!!
-**** d:\GitHubRepos\un-http\about\testing.html ****
-classes: 93
-ids: 7
-tags: 24
-extracting rules...
-*******found location instances (2) of  body  in css: 168,2506
-*******found location instances (1) of  footer  in css: 238
-*******found location instances (12) of  li  in css: 3712,6508,6582,6869,6900,6969,8084,8130,10918,10957,11049,15430
-*******found location instances (39) of  a  in css: 507,583,596,3023,3030,3037,3044,3051,3058,3177,6903,6972,7283,7298,7314,7339,7365,7381,7524,7665,7740,7930,8049,8065,8087,8157,8182,9717,9762,9812,9828,9991,10960,11052,11952,12014,12233,12296,15397
-*******found location instances (2) of  img  in css: 989,3148
-*******found location instances (4) of  h3  in css: 2624,2762,2930,3034
-*******found location instances (4) of  h2  in css: 2619,2738,2925,3027
-*******found location instances (7) of  button  in css: 1200,1297,1335,1377,1459,1468,1642
-*******found location instances (1) of  header  in css: 247
-*******found location instances (2) of  input  in css: 1209,1306
-*******found location instances (2) of .w3-top  in css: 16355,16422
-*******found location instances (1) of .w3-hide  in css: 14902
-*******found location instances (1) of .w3-hide-large  in css: 16062
-*******found location instances (1) of .w3-hide-medium  in css: 15986
-*******found location instances (1) of .w3-content  in css: 14823
-*******found location instances (2) of .w3-container  in css: 12946,21249
-*******found location instances (1) of .w3-padding-64  in css: 19978
-*******found location instances (1) of .w3-center  in css: 17275
-*******found location instances (1) of .w3-opacity  in css: 24695
-*******found location instances (1) of .w3-light-grey  in css: 27645
-*******found location instances (1) of .w3-xlarge  in css: 16872
-*******found location instances (17) of .w3-navbar  in css: 6780,6859,6890,6959,7024,7056,7108,7148,7194,7273,7421,8039,15420,15493,15638,15691,15821
-*******found location instances (1) of .w3-black  in css: 27450
-*******found location instances (1) of .w3-card-2  in css: 21871
-*******found location instances (1) of .w3-left-align  in css: 17132
-*******found location instances (4) of .w3-opennav  in css: 4635,7765,7812,8245
-*******found location instances (3) of .w3-right  in css: 7443,15506,16670
-*******found location instances (1) of .w3-hide-small  in css: 15887
-*******found location instances (13) of .w3-dropdown-hover  in css: 7035,7119,7159,7722,8216,9863,9904,10055,10136,11617,11700,15596,15702
-*******found location instances (1) of .w3-padding-large  in css: 19213
-*******found location instances (1) of .w3-hover-none  in css: 25112
-*******found location instances (2) of .w3-hover-text-grey  in css: 9338,30101
-*******found location instances (11) of .w3-dropdown-content  in css: 7319,8162,10155,10209,11727,11780,11932,11994,15615,15668,15721
-*******found location instances (1) of .w3-white  in css: 27353
-*******found location instances (1) of .w3-card-4  in css: 21996
-*******found location instances (2) of .w3-hover-red  in css: 8620,26969
-*******found location instances (1) of .w3-display-container  in css: 6638
-*******found location instances (3) of .w3-modal  in css: 10301,15145,15245
-*******found location instances (1) of .w3-display-bottommiddle  in css: 17853
-*******found location instances (1) of .w3-text-white  in css: 29939
-*******found location instances (1) of .w3-padding-32  in css: 19818
-*******found location instances (2) of .w3-wide  in css: 2656,2987
-*******found location instances (1) of .w3-justify  in css: 17228
-*******found location instances (1) of .w3-row  in css: 12990
-*******found location instances (5) of .w3-third  in css: 13234,13711,13961,14477,20672
-*******found location instances (1) of .w3-round  in css: 18089
-*******found location instances (1) of .w3-margin-bottom  in css: 18809
-*******found location instances (3) of .w3-ul  in css: 6443,6502,6576
-*******found location instances (1) of .w3-border  in css: 18396
-*******found location instances (1) of .w3-text-grey  in css: 30085
-*******found location instances (2) of .w3-row-padding  in css: 13008,20611
-*******found location instances (1) of .w3-padding  in css: 19157
-*******found location instances (1) of .w3-tag  in css: 6265
-*******found location instances (1) of .w3-red  in css: 26959
-*******found location instances (1) of .w3-margin-left  in css: 18862
-*******found location instances (2) of .w3-badge  in css: 6253,6407
-*******found location instances (1) of .w3-margin-right  in css: 18911
-*******found location instances (2) of .w3-hover-opacity  in css: 7995,24709
-*******found location instances (10) of .w3-btn  in css: 4110,4376,4566,5196,5405,5550,5779,5847,5945,7890
-*******found location instances (4) of .w3-modal-content  in css: 10514,15084,15209,15309
-*******found location instances (1) of .w3-animate-top  in css: 23059
-*******found location instances (1) of .w3-card-8  in css: 22133
-*******found location instances (1) of .w3-teal  in css: 27153
-*******found location instances (4) of .w3-closebtn  in css: 8274,10632,10738,10761
-*******found location instances (1) of .w3-padding-xlarge  in css: 19265
-*******found location instances (1) of .w3-xxlarge  in css: 16914
-*******found location instances (1) of .w3-display-topright  in css: 17381
-*******found location instances (2) of .w3-input  in css: 11162,11297
-*******found location instances (4) of .w3-btn-block  in css: 4120,4394,5804,7960
-*******found location instances (1) of .w3-padding-12  in css: 19578
-*******found location instances (1) of .w3-section  in css: 18962
-*******found location instances (1) of .w3-text-blue  in css: 28449
-*******found location instances (2) of .w3-col  in css: 13213,20796
-*******found location instances (1) of .m6  in css: 14033
-*******found location instances (1) of .w3-large  in css: 16831
-*******found location instances (5) of .w3-half  in css: 13223,13700,14039,14555,20645
-*******found location instances (2) of .w3-hover-text-indigo  in css: 9006,29025
-*******found location instances (2) of .w3-hover-text-red  in css: 9203,29656
-*******found location instances (2) of .w3-hover-text-light-blue  in css: 8854,28545
-*******found location instances (1) of .w3-medium  in css: 16789
-*******found location instances (1) of  #main  in css: 10261
-*******found location instances (1) of .fa  in css: 526
-*******found location instances (1) of .fa-bars  in css: 11848
-*******found location instances (1) of .fa-caret-down  in css: 12430
-*******found location instances (1) of .fa-search  in css: 3610
-*******found location instances (1) of .fa-suitcase  in css: 13729
-*******found location instances (1) of .fa-shopping-cart  in css: 8827
-*******found location instances (1) of .fa-user  in css: 3821
-*******found location instances (1) of .fa-check  in css: 4026
-*******found location instances (1) of .fa-remove  in css: 4067
-*******found location instances (1) of .fa-map-marker  in css: 6323
-*******found location instances (1) of .fa-phone  in css: 10011
-*******found location instances (1) of .fa-envelope  in css: 12857
-*******found location instances (1) of .fa-facebook-official  in css: 28182
-*******found location instances (1) of .fa-pinterest-p  in css: 28235
-*******found location instances (1) of .fa-twitter  in css: 10190
-*******found location instances (1) of .fa-flickr  in css: 19443
-*******found location instances (1) of .fa-linkedin  in css: 12901
-query remaining css rules in stylesheets and remove non matching rules
-removing rule:  .w3-input~.w3-validate { color:#f44336 } 
-removing rule:  .w3-btn-bar .w3-btn { background-color:#ccc } 
-removing rule:  .w3-btn-bar .w3-btn { box-shadow:none;background-color:inherit;color:inherit;float:left } 
-removing rule:  .w3-btn-group .w3-btn { float:left } 
-removing rule:  .w3-sidenav .w3-dropdown-hover .w3-dropdown-content , .w3-sidenav .w3-dropdown-click .w3-dropdown-content { min-width:100% } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click { width:100% } 
-removing rule:  .w3-topnav a { display:block .w3-navbar li { float:none;width:100%!important } .w3-navbar li.w3-right { float:none!important } } 
-removing rule:  .w3-accordion-content a { background-color:#ccc } 
-removing rule:  .w3-accordion-content a { padding:6px 16px;display:block } 
-removing rule:  .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-hover , .w3-sidenav .w3-dropdown-click , .w3-dropnav a { background-color:#ccc;color:#000 } 
-removing rule:  .w3-sidenav a , .w3-dropnav a { display:block } 
-removing rule:  .w3-sidenav a { background-color:#ccc } 
-removing rule:  .w3-sidenav a { padding:4px 2px 4px 16px } 
-removing rule:  .w3-topnav .w3-dropdown-hover a { border-bottom:0 } 
-removing rule:  .w3-topnav a { border-bottom:3px solid #fff } 
-removing rule:  .w3-topnav a { padding:0 8px;border-bottom:3px solid transparent;-webkit-transition:border-bottom .3s;transition:border-bottom .3s } 
-removing rule:  h1 a , h2 a , h3 a , h4 a , h5 a , h6 a { font-weight:inherit } 
-removing rule:  .w3-pagination li a { background-color:#ccc } 
-removing rule:  .w3-pagination li a { text-decoration:none;color:#000;float:left;padding:8px 16px } 
-removing rule:  .w3-pagination li { display:inline } 
-removing rule:  .w3-hoverable tbody tr , .w3-ul.w3-hoverable li { background-color:#ccc } 
-base64ing all images...
-generating new css document...
-updating d:\GitHubRepos\un-http\about with new css style...
-complete: d:\GitHubRepos\un-http\about\testing.html!!!
+updating /Users/zachary-jones/Documents/un-http/help with new css style...
+complete: /Users/zachary-jones/Documents/un-http/help/testing.html!!!

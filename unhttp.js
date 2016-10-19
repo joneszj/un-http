@@ -3,6 +3,7 @@ var jsdom = require("jsdom");
 var request = require("request-sync");
 var fs = require("fs");
 var pathService = require('path');
+var CleanCSS = require('clean-css');
 
 var excludeDirs = ['node_modules'];
 var htmlContentObjects = [];
@@ -11,7 +12,7 @@ var loadedStylesheets = [];
 var loadedStylesheetsScript = [];
 var loadedImages64 = [];
 var cssRules = [];
-var cssPsuedo = ["active","after", "before", "checked", "disabled", "empty", "enabled", "first-child", "first-of-type", "focus", "hover", "in-range", "invalid", "lang", "last-child", "last-of-type", "link", "not", "nth-child", "nth-last-child", "nth-last-of-type", "nth-of-type", "only-of-type", "only-child", "optional", "out-of-range", "read-only", "read-write", "required", "target", "valid", "visited"];
+var cssPsuedo = ["active","after", "before", "checked", "disabled", "empty", "enabled", "first-child", "first-of-type", "focus", "hover", "in-range", "indeterminate", "invalid", "lang", "last-child", "last-of-type", "link", "not", "nth-child", "nth-last-child", "nth-last-of-type", "nth-of-type", "only-of-type", "only-child", "optional", "out-of-range", "read-only", "read-write", "required", "target", "valid", "visited"];
 
 var log = [];
 var styleLog = [];
@@ -59,7 +60,6 @@ function writeErrorLog(){
     errorLogFile.end();
 }
 
-
 // iterate through each html doc in styleContentObjects
 function getStyles() {
     for (var index = 0; index < styleContentObjects.length; index++) {
@@ -102,10 +102,6 @@ function loadHTML(html, loadStyles) {
                     return key === '' ? undefined : key.toLowerCase();
                 });
                 extractCSSStyleSheets(html[0], styles);
-
-                styleLog.push("base64ing all images...");
-
-
 
                 var styleLogFile = fs.createWriteStream('02_styleLog.txt');
                 styleLogFile.on('error', function (err) { /* error handling */ });
@@ -198,9 +194,9 @@ function loadHTML(html, loadStyles) {
                             console.log(e);
                         }
                     }
-                    //base64 images
-                    log.push("base64ing all images...");
 
+                    //extract images for base64ing
+                    filterUniqueArray = extractImages(filterUniqueArray);
 
                     log.push("generating new css document...");
                     var onlyPath = pathService.dirname(path);
@@ -218,6 +214,22 @@ function loadHTML(html, loadStyles) {
                         file.write(v + '\n');
                     });
                     file.end();
+
+                    var filemin = fs.createWriteStream(onlyPath + "/" + pathService.basename(path).replace(/\.[^/.]+$/, "") + '_unhttp.min.css');
+                    filemin.on('error', function (err) { /* error handling */ });
+                    filterUniqueArray.forEach(function (v) {
+                        v = v.replace(/ , /g, ',', "D");
+                        v = v.replace(/ { /g, '{', "D");
+                        v = v.replace(/ } /g, '}', "D");
+                        v = v.replace(/ : /g, ':', "D");
+                        v = v.replace(" .", '.', "D");
+                        v = v.replace(" #", '#', "D");
+                        v = v.replace(/\s{2,10}/g, ' ');
+                        var minified = new CleanCSS().minify(v).styles;
+                        filemin.write(minified);
+                    });
+                    filemin.end();                    
+
                     // update log
                     log.push("complete: " + path + "!!!");
                     var logFile = fs.createWriteStream('01_log.txt');
@@ -233,8 +245,57 @@ function loadHTML(html, loadStyles) {
     });
 }
 
-function matchCSS() {
+function extractImages(filterUniqueArray) {
+    base64filterUniqueArray = filterUniqueArray;
+    for (var index = 0; index < filterUniqueArray.length; index++) {
+        var element = filterUniqueArray[index];
+        if (element.indexOf("url(") > -1) {
+            str = element;
+            var urlstring =str.substring(str.lastIndexOf("url(")+4,str.lastIndexOf(")"));
+            urlstring = urlstring.replace("\"", "", "D");
+            console.log("URL found - attempting base64: " + urlstring);
+            //check if url has already been base64d
+            if (loadedImages64.indexOf(urlstring) > -1) {
+                console.log("image already base64d");
+                //if base64d, just replace attribute
+            } else {
+                console.log("attempting base64")
+                var result;
+                var result64;
+                //is relative url?
+                if (urlstring.indexOf("//") >- 1) {
+                    console.log("relative url");
+                    //try http
+                    console.log("calling url as http");
+                    result = request(urlstring.replace("//","http://"))
+                    if (result.statusCode != "200") {
+                        console.log("calling url as https");
+                        result = request(urlstring.replace("//","https://"))                        
+                    }
+                    console.log("url call complete");
+                    //if fail try https
+                } else if (urlstring.indexOf("http") >- 1) {
+                    console.log("defined url");
+                    //http already defined
+                } else {
+                    console.log("local image");
+                    //local image
+                    //handle later?
+                }
+                //dont base64 images that are >5kb
+                if (result.statusCode == "200" && result.headers["content-length"] <= 5000) {
 
+                } else {
+                    console.log("image > 5000b (5kb) - ignoring");
+                }
+                //base64 result
+                //replace attribute with base64 result
+                //save result
+                loadedImages64.push(urlstring,result64); 
+            }
+        }
+    }
+    return base64filterUniqueArray;
 }
 
 // get all stylesheets on html doc
@@ -255,9 +316,10 @@ function extractCSSStyleSheets(filePath, styles) {
                 response.body = response.body.replace(/\s{2,10}/g, ' ');
                 response.body = response.body.replace(/[\n\r]+/g, '');
                 //remove comments
-                response.body = response.body.replace(/\/\*[\s\S]*?\*\/|([^:]|^)\/\/.*$/gm, '');
+                //response.body = response.body.replace(/\/\*[\s\S]*?\*\/|([^:]|^)\/\/.*$/gm, '');
                 var css = "~~~~~~~~~~~~" + response.body;
                 loadedStylesheetsScript.push(css);
+                //console.log(css)
             } else {
 
             }
