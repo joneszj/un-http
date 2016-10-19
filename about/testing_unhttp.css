@@ -1,5 +1,5 @@
  body{margin:0}
- html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
+ /* End extract */ html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
  article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
  ul.w3-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid#ddd}
  ul.w3-ul li:last-child{border-bottom:none}
@@ -116,6 +116,10 @@
 .w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
 .w3-medium{font-size:15px!important}
 .w3-main,#main{transition:margin-left .4s}
+ body{background:100% 5px no-repeat; margin-top:0; max-width:none:min-height:180px; padding:30px 0 15px;}
+ * > body{padding-right:205px;}
+ /* Google Fonts logo styling*/.projectLogo a{font-family:"Open Sans",arial,sans-serif; font-size:32px; font-weight:300; color:#63666a; line-height:1.375; text-decoration:none;}
+ p{margin:22px 0 0; overflow:hidden;}
 .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-navicon:before,.fa-reorder:before,.fa-bars:before{content:"\f0c9"}
 .fa-caret-down:before{content:"\f0d7"}
@@ -133,3 +137,47 @@
 .fa-twitter:before{content:"\f099"}
 .fa-flickr:before{content:"\f16e"}
 .fa-linkedin:before{content:"\f0e1"}
+ body{background-color:#fff}
+.largebody,body{font-family:AvenirNextRegular}
+ body{color:#575757}
+ body{font-size:1rem;line-height:1.64rem;letter-spacing:.08rem}
+ @media (min-width:768px){body{font-size:1.14rem;line-height:1.82rem}} 
+ @media (min-width:992px){body{font-size:1.29rem;line-height:2rem;letter-spacing:.07rem}} 
+ body{transition:all.5s ease-in-out;-moz-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out}
+ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+ dl,ol,ul{margin-top:0;margin-bottom:1rem}
+ a{background-color:transparent}
+ a:active,a:hover{outline:0}
+ a,a:visited{text-decoration:underline}
+ a,a:focus,a:hover{text-decoration:none}
+ a:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
+ [role=button],a,area,button,input,label,select,summary,textarea{touch-action:manipulation}
+.admission-list .link--secondary:active a:visited,.admission-list a:active .link--secondary:visited,.admission-list a:active a:visited,.admission-list a:hover,.link--secondary:active .admission-list a:visited,.link--secondary:active .link--secondary:visited,.link--secondary:hover{text-decoration:underline}
+ a:focus,a:hover{color:#3a3a3a}
+ a{color:#3a3a3a}
+ img{border:0}
+ img,tr{page-break-inside:avoid}
+ img{max-width:100%!important}
+ img{vertical-align:middle}
+ h2,h3,p{orphans:3;widows:3}
+ h2,h3{page-break-after:avoid}
+.h6,h1,h2,h3,h4,h5,h6{margin-top:0}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.1;color:inherit}
+.caption,.h6,.nav-heading,h3,h4,h6{font-family:AvenirNextDemiBold}
+ h3{font-size:1.29rem;line-height:1.79rem;letter-spacing:.05rem}
+ @media (min-width:768px){h3{font-size:1.5rem;line-height:2.07rem;letter-spacing:.06rem}} 
+ @media (min-width:992px){h3{font-size:1.71rem;line-height:2.36rem;letter-spacing:.07rem}} 
+ p{margin-top:0;margin-bottom:1rem}
+ b,strong{font-weight:700}
+.text-display,h1,h2{font-family:AvenirNextBold}
+ h2{font-size:1.57rem;line-height:2.14rem;letter-spacing:.06rem}
+ @media (min-width:768px){h2{font-size:1.96rem;line-height:2.68rem;letter-spacing:.11rem}} 
+ @media (min-width:992px){h2{font-size:2.36rem;line-height:3.21rem;letter-spacing:.16rem}} 
+ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+ button{overflow:visible}
+ button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+ button:: -moz-focus-inner,input:: -moz-focus-inner{border:0;padding:0}
+ button:focus{outline:dotted 1px;outline:-webkit-focus-ring-color auto 5px}
+ button,input,select,textarea{margin:0;line-height:inherit;border-radius:0}
+ input:focus,textarea:focus{outline:0}
+ label{display:inline-block;margin-bottom:.5rem}

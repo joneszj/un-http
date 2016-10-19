@@ -1,5 +1,5 @@
  body{margin:0}
- html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
+ /* End extract */ html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
  article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
  ul.w3-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid#ddd}
  ul.w3-ul li:last-child{border-bottom:none}
@@ -115,6 +115,10 @@
 .w3-text-red,.w3-hover-text-red:hover{color:#f44336!important}
 .w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
 .w3-medium{font-size:15px!important}
+ body{background:100% 5px no-repeat; margin-top:0; max-width:none:min-height:180px; padding:30px 0 15px;}
+ * > body{padding-right:205px;}
+ /* Google Fonts logo styling*/.projectLogo a{font-family:"Open Sans",arial,sans-serif; font-size:32px; font-weight:300; color:#63666a; line-height:1.375; text-decoration:none;}
+ p{margin:22px 0 0; overflow:hidden;}
 .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-navicon:before,.fa-reorder:before,.fa-bars:before{content:"\f0c9"}
 .fa-caret-down:before{content:"\f0d7"}
